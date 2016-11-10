@@ -1,0 +1,48 @@
+<HTML>
+    <head>
+        <link rel="stylesheet" href="css/reset.css" media="screen" title="no title">
+            <link rel="stylesheet" href="css/style.css" media="screen" title="no title">
+        <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+    </head>
+    <body ng-app="resume">
+        <personal-information></personal-information>
+            <div class="skills">
+                <div class="pagetitle">
+                    Expertise
+                </div>
+                <div class="skillsflex">
+                    <div class="skill">
+                        Integrations
+                    </div>
+                    <div class="skill">
+                        REST
+                    </div>
+                    <div class="skill">
+                        SOAP
+                    </div>
+                    <div class="skill">
+                        Service Portal
+                    </div>
+                    <div class="skill">
+                        AngularJS
+                    </div>
+                    <div class="skill">
+                        Node.js
+                    </div>
+                    <div class="skill">
+                        ITIL
+                    </div>
+                </div>
+            </div>
+        <client-list></client-list>
+        <script src="js/angular.min.js"></script>
+        <script src="js/angular-animate.min.js"></script>
+        <!-- <script src="js/ui-bootstrap-tpls-2.2.0.min.js"></script> -->
+        <script src="app/app.js"></script>
+        <script src="app/resumeDataService.js"></script>
+        <script src="app/clientList.js"></script>
+        <script src="app/projectDetail.js"></script>
+        <script src="app/personalInformation.js"></script>
+    </body>
+</HTML>

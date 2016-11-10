@@ -1,0 +1,31 @@
+<div class="client">
+    <div class="cleft">
+        <div class="pclient">
+            {{$ctrl.project.client}}
+        </div>
+        <div class="prole">
+            {{$ctrl.project.role}}
+        </div>
+        <!-- <div ng-if="$ctrl.project.subcontract.length > 0" class="psub">
+            Sub through <br /><span ng-repeat="com in $ctrl.project.subcontract">
+                {{com}} <br ng-if="!$last" />
+            </span>
+        </div> -->
+    </div>
+
+    <!-- <div class="psub">
+        Subcontract: {{$ctrl.project.subcontract}}
+    </div> -->
+    <div class="projects">
+        <div class="project" ng-repeat="project in $ctrl.project.projects">
+            {{project.title}}
+            <ul class="bullet">
+                <li ng-repeat="bullet in project.bullets">
+                    {{bullet}}
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="projectbreak">
+</div>

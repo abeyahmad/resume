@@ -1,0 +1,103 @@
+body, html {
+    font-family: 'Lato';
+    /*font-size: 1*/
+    /*font-weight: 300;*/
+}
+
+.pclient {
+    font-weight: normal;
+    font-size: 2.5rem;
+    color: #b20000
+}
+
+.project {
+    font-size: 2rem;
+}
+
+.prole {
+    font-size: 1rem;
+}
+
+.psub {
+    font-size: 1rem;
+    text-align: center;
+}
+
+ul.bullet {
+    /*list-style: circle;*/
+    font-size: 1rem;
+    padding-left: 20px;
+}
+
+.clientlist {
+    width: 80%;
+    margin-left:10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*background-color: #eee;*/
+    /*border: 1px solid black;*/
+}
+
+.client {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /*border: 1px solid black;*/
+    margin: 1px 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    min-height: 300px;
+}
+
+.cleft {
+    min-width: 50%;
+}
+
+.projects {
+    min-width: 50%;
+    padding-left: 40px;
+}
+
+.header {
+    width: 80%;
+    margin-left: 10%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.name {
+    font-weight: bold;
+    font-size: 4em;
+}
+.pagetitle {
+    text-align: center;
+    /*margin-top: 20px;*/
+    font-size: 2rem;
+    color: #0a0a54;
+}
+.projectbreak {
+    height: 1px;
+    background-color: #eee;
+    width: 20%;
+    margin-left: 40%
+}
+.skillsflex {
+    height: 100px;
+    font-size: 1rem;
+    margin-left:20%;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    /*align-items: center*/
+}
+.skill {
+    text-align: center;
+    margin-top: 20px
+}
+.headblock2 {
+    text-align: right;
+}
